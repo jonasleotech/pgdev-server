@@ -9,7 +9,7 @@
     "command"
   ],
   "scripts": {
-    "start": "node ./bin/pgdev-server"
+    "start": "node ./bin/pgdev-server.js"
   },
   "contributors": [
 
@@ -28,6 +28,6 @@
   "analyze": false,
   "preferGlobal": "true",
   "bin": {
-    "pgdev-server": "./bin/pgdev-server"
+    "pgdev-server": "./bin/pgdev-server.js"
   }
 }
