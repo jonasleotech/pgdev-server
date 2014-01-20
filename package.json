@@ -1,6 +1,6 @@
 {
   "name": "pgdev-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jonas Larsson <jonas.larsson@leotech.com.sg>",
   "description": "pgdev server",
   "main": "./lib/pgdev-server",

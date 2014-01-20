@@ -45,6 +45,7 @@ function copyFile(from, to) {
 function copyToPlatform(platform, file) {
     var pf = platforms[platform]
     var srcpath = null
+    if( !fs.existsSync(pf.publish) ) return;
     for (var i = 0; i < pf.paths.length; i++) {
         var p = path.join(pf.paths[i], file)
         if (fs.existsSync(p)) {
