@@ -17,7 +17,7 @@
   "dependencies": {
     "portfinder": "0.2.x",
     "chokidar": "0.8.1",
-    "fs-extra": "0.8.1",
+    "fs-extra": "0.8.1"
   },
   "licenses": [
     {
