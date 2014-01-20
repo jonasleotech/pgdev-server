@@ -1,0 +1,33 @@
+{
+  "name": "phonegap-server",
+  "version": "0.0.1",
+  "author": "Jonas Larsson <jonas.larsson@leotech.com.sg>",
+  "description": "pgdev server",
+  "main": "./lib/pgdev-server",
+  "keywords": [
+    "cli",
+    "command"
+  ],
+  "scripts": {
+    "start": "node ./bin/pgdev-server"
+  },
+  "contributors": [
+
+  ],
+  "dependencies": {
+    "portfinder": "0.2.x",
+    "chokidar": "0.8.1",
+    "fs-extra": "0.8.1",
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nodeapps/http-server/raw/master/LICENSE"
+    }
+  ],
+  "analyze": false,
+  "preferGlobal": "true",
+  "bin": {
+    "pgdev-server": "./bin/pgdev-server"
+  }
+}
